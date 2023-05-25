@@ -1,0 +1,16 @@
+name: deep-rl-crypto-training
+channels:
+  - defaults
+dependencies:
+  - python==3.9.16
+  - pip
+  - numpy
+  - cudatoolkit
+  - cudnn
+  - tensorflow-gpu
+  - keras
+  - pandas
+  - scikit-learn
+  - pip:    
+    - matplotlib
+    - python-binance
